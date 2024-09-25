@@ -3,6 +3,9 @@ import manOnIndex from '../assets/index Images/manOnSearch.png';
 import gps from '../assets/index Images/gps.png';
 import user from '../assets/index Images/user.png';
 import ServicesList from '../components/Home/ServicesList';
+import OurMoto from '../components/Home/OurMoto';
+import AtternyReviews from '../components/Home/AtternyReviews';
+import WhyChooseUS from '../components/Home/WhyChooseUS';
 const Home = () => {
   return (
         <div className='searchEngine_main bg-white'>
@@ -37,13 +40,16 @@ const Home = () => {
                 <ServicesList/>
             </div>
             {/* --------OurMoto Component ------------- */}
-            <div className='ourMoto_main'>
-                <h3 className='motoHeading'>We're dedicated to providing impartial information
-                on attorneys and the legal process.</h3>
-                <p className='moto_content'>
-                We aim to provide you with clear, unbiased information about attorneys and the legal process. We're here to help you make informed decisions with confidence, offering trustworthy resources and insights every step of the way.
-                </p>
+            <div>
+                <OurMoto/>
             </div>
+            <div>
+                <AtternyReviews/>
+            </div>
+            <div>
+                <WhyChooseUS/>
+            </div>
+         
         </div>
   )
 }
