@@ -1,13 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+:root{
+  --primary-color:#007AFF;
+  --secondary-color:#FF8500;
+  --tertiary-color:#101828;
+
+  --primary-font:'inter',sans-serif;
+  --font-regular: 400;
+  --font-semibold: 600;
+}
+*{
+   margin: 0;
+   padding: 0;
+  font-family: var(--primary-font);
+}
+p{
+  margin: 0 !important;
+}
+h1,h2,h3,h4,h5,h6 ,p, div ,span{
+  font-family: var(--primary-font);
+}
+span{
+  color:#007AFF;
+}
 body {
+  font-family: var(--primary-font);
+}
+.pr-0
+{
+  padding-right: 0;
+}
+.pl-0
+{
+  padding-left: 0px !important;
+}
+ul{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding:0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* -------------------Header Start----------------- */
+.header_box{
+  position:relative;
+   /* width: 1440px; */
+   height: 76px ;
 }
+.header_content_box{
+  width: 1277px;
+  height: 42px;
+  position: relative;
+  padding: 17px 83px;    
+    /* top: 17px;          */
+}
+.inner_stroke {
+  /* font-size: 100px; */
+  color: #000000; 
+  text-shadow: 
+      -1px -1px 0 #ffffff,
+      1px -1px 0 #ffffff, 
+      -1px 1px 0 #ffffff, 
+      1px 1px 0 #ffffff;
+}
+.menu_list ul {
+  margin: 0 !important;
+
+}
+.auth_details ul{
+  margin: 0 !important;
+}
+.menu_list ul li {
+  list-style-type: none;
+  padding:0 10px;
+  display: inline;
+  font-size:16px;
+  font-weight: bold;
+  cursor:pointer;
+}
+.auth_details ul li {
+  list-style-type: none;
+  padding:0 5px;
+  display: inline;
+}
+.logo_design{
+  font-size:30px;
+  font-weight: bold;
+  color:var(--secondary-color);
+}
+.logo_left_part{
+  color:var(--secondary-color);
+}
+.logo_right_part{
+  color:var(--primary-color);
+}
+.auth_seprator{
+  color:#D9D9D9;
+}
+.login_typo, .signup_typo{
+  font-size:18px;
+  font-weight: bold;
+  color:var(--secondary-color);
+  cursor:pointer;
+}
+.signup_btn{
+  width: 112px;
+  height: 42px;
+  border: none;
+  border-radius: 21px;
+  background-color: #007AFF;
+  color:#FFFFFF
+}
+.dropdown_positioning{
+  padding-left:4px;
+}
+.active_menu_clr{
+  color:var(--primary-color);
+}
+
+
+/* ---------------------Header End--------------------- */
+
+/* ---------------------Search Engine start----------------- */
+.searchEngine_main{
+  background-image: url('/src/assets/index Images/bg.png');
+  background-repeat: no-repeat;
+  height: 424px;
+  /* width: 1440px; */
+}
+.search_container{
+  width: 959px;
+  height: 288px;
+  display: flex;
+  align-items: center;
+  padding-left: 83px;
+}
+.searchEngine_heading{
+  color:#ffffff;
+  font-size:60px;
+  font-weight: 3  00;
+  line-height:1.2;
+}
+.searchEngine_inputs{
+  /* margin-top:10px;   */
+  height: 108px;
+  background-image: URL('/src/assets/index Images/Rectangle 1.png');
+  margin-left: 83px;
+  padding: 36px;
+  position: relative;
+
+}
+.location_container{
+  width: 42%; 
+  margin-left:5px;
+
+}
+.locaton_input{
+  width: 100%;
+  padding: 8px 8px 8px 8px;
+  border:none;
+  border-radius: 4px;
+  font-size: 16px;
+  
+}
+.gps_settings{
+  position: absolute;
+  right:60%;
+  top:50%;
+  transform:translateY(-49%);
+}
+.user_settings{
+  position: absolute;
+  right:23%;
+  top:50%;
+  transform:translateY(-49%);
+}
+
+.locaton_input::placeholder{
+    font-size:14px;
+    color:#101828;
+    font-family: var(--primary-font);
+}
+.btn_typography{
+  padding: 8px 8px 8px 8px;
+  width: 109px;
+  margin-left:5px;
+  background-color:var(--secondary-color) !important;
+  border: none !important;
+  height: 40px;
+}
+/* ---------------------Search Engine end----------------- */
+
+
+/* -------------------Services Start--------------------------- */
+.services_main,.ourMoto_main{
+  margin-top:50px;
+  padding:0px 60px;
+}
+.askQuestion_block{
+  width: 286px;
+  height: 342px;
+  /* margin:5px  0px; */
+}
+.services_heading{
+  font-size: 24px;
+  font-weight: 600;
+  padding:12px;
+  color:#101828;
+}
+.services_content{
+  color:#101828;
+  font-size: 16px;
+  padding:0px 12px 12px 12px;
+}
+.read_more_btn{
+  /* width: 130px; */
+  /* height: 28px; */
+  color:#A2A2A2;
+  font-size:18px;
+  font-weight:600;
+  padding:0px 12px 12px 12px;
+ cursor:pointer;
+}
+.readMore_icon{
+ size:24px !important;
+ margin-left:8px;
+ margin-top:2px;
+
+}
+.read_more_btn:hover{
+  color:var(--secondary-color);
+}
+.services_shadow_effect{
+  border-radius: 0px 0px 24px 24px;
+  box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.12);
+}
+/* ----------------------Services End --------------------------- */
+
+/* ------------------our Moto ---------------------------------------- */
+.motoHeading{
+  padding: 0px 80px;
+  width: 1223px;
+  height: 113px;
+  font-size:42px;
+  font-weight: 600;
+  text-align: center;
+  color: #101828;
+}
+.moto_content{
+
+  text-align: center;
+  color: #101828;
+  font-size:21px;
+  font-weight: 400;
+}
+/* ------------------our Moto ---------------------------------------- */
+
