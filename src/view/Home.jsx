@@ -6,6 +6,7 @@ import ServicesList from '../components/Home/ServicesList';
 import OurMoto from '../components/Home/OurMoto';
 import AtternyReviews from '../components/Home/AtternyReviews';
 import WhyChooseUS from '../components/Home/WhyChooseUS';
+import FindingLawyers from '../components/Home/FindingLawyers';
 const Home = () => {
   return (
         <div className='searchEngine_main bg-white'>
@@ -48,6 +49,9 @@ const Home = () => {
             </div>
             <div>
                 <WhyChooseUS/>
+            </div>
+            <div>
+                <FindingLawyers/>
             </div>
          
         </div>

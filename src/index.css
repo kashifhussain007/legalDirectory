@@ -252,6 +252,8 @@ ul{
   font-size:21px;
   font-weight: 400;
 }
+
+
 /* ------------------our Moto ---------------------------------------- */
 
 /* -----------------Attorny Services and info  Start----------------------------- */
@@ -259,7 +261,10 @@ ul{
   margin-top:50px;
   padding:20px 60px;
   border-radius: 14px;
+}
+.box_shadow{
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.09);
+  padding: 10px 0px;
 }
 .atternyReview_clone{
   width:1280px;
@@ -280,18 +285,82 @@ ul{
   margin-bottom: 0  !important;
 }
 .attorny_info_points{
-  margin-top:60px;
-}
-.WhyUs_main{
   margin-top:50px;
-  /* padding:0px 60px; */
+}
+.InfoCheck_settings{
+  padding:4px 0px;
+}
+
+/* -----------------WHy Choose US------------------------ */
+.WhyUs_main , .find_lawyers_main{
+  margin-top:50px;
+  padding:0px 60px;
   width:1280px;
   /* height: 602px; */
+}
+.content_block{
+  width: 589px;
+   gap:10px;
 }
 .whyUs_heading{
   font-size: 42px;
   font-weight: 600;
+  padding:24px  70px;
+  gap: 26px;
+}
+.chooseUs_heading{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  text-align: left;
+  color: #101828;
+}
+/* .whyUs_content_container{
   padding:30px;
+} */
+.whyUs_content{
+  padding:26px 23px;
+  width: 544px;
+}
+.dotPattern_settings{
+  padding: 8px 8px 8px 0px;
+}
+.whyUs_child_data{
+  padding-left: 38px;
+  padding-top: 4px;
+  font-size:18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* -------------------------Find Lawyers Section-------------------- */
+.find_lawyer_heading{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 56.19px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.search_by_location{
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.73px;
+  text-align: left;
+  color: #101828;
+  padding-bottom: 10px;
+
+
+}
+.find_lawyers_main p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: left;
+   color: #101828;
+   text-align: center;
+}
+.link_btn{
+  cursor:pointer;
 }
 
 
