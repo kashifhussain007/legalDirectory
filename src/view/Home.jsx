@@ -7,6 +7,9 @@ import OurMoto from '../components/Home/OurMoto';
 import AtternyReviews from '../components/Home/AtternyReviews';
 import WhyChooseUS from '../components/Home/WhyChooseUS';
 import FindingLawyers from '../components/Home/FindingLawyers';
+import Blogs from '../components/Home/Blogs';
+import Subscription from '../components/Home/Subscription';
+import Footer from '../components/footer/Footer';
 const Home = () => {
   return (
         <div className='searchEngine_main bg-white'>
@@ -53,6 +56,17 @@ const Home = () => {
             <div>
                 <FindingLawyers/>
             </div>
+            <div>
+                <Blogs/>
+            </div>
+            <div>
+                <Subscription/>
+            </div>
+            <div className='set_foooter_m'>
+                <Footer/>
+            </div>
+
+           
          
         </div>
   )
